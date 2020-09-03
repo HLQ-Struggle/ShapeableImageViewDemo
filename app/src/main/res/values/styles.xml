@@ -7,4 +7,49 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- 圆角图片 -->
+    <style name="roundedCornerStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <!-- 圆形图片 -->
+    <style name="circleStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- 切角图片 -->
+    <style name="cutCornerStyle">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- 菱形图片 -->
+    <style name="diamondStyle">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- 右上角圆角图片 -->
+    <style name="topRightCornerStyle">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">50dp</item>
+    </style>
+
+    <!-- 小鸡蛋图片 -->
+    <style name="eggStyle">
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeTopRight">50dp</item>
+        <item name="cornerSizeTopLeft">50dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+    </style>
+
+    <!-- 右侧小 Tips 图片 -->
+    <style name="rightCutStyle">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeBottomRight">50%</item>
+    </style>
+
 </resources>

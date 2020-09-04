@@ -191,7 +191,7 @@
         app:layout_constraintTop_toBottomOf="@+id/siv_egg" />
 
     <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/siv_right_cut"
+        android:id="@+id/siv_com_corner"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
@@ -199,6 +199,42 @@
         android:src="@drawable/hlq_test"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_diamond_title"
-        app:shapeAppearanceOverlay="@style/rightCutStyle" />
+        app:shapeAppearanceOverlay="@style/comCornerStyle" />
+
+    <TextView
+        android:id="@+id/tv_com_corner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="组合弧度图片"
+        android:textColor="#333"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/siv_com_corner" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv_tip"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hlq_test"
+        app:layout_constraintStart_toEndOf="@+id/siv_com_corner"
+        app:layout_constraintTop_toBottomOf="@+id/tv_top_right_title"
+        app:shapeAppearanceOverlay="@style/tipsCornerStyle" />
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="12dp"
+        android:text="小 Tips"
+        android:textColor="#333"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_com_corner"
+        app:layout_constraintTop_toBottomOf="@+id/siv_tip" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,10 +45,22 @@
         <item name="cornerFamilyTopLeft">rounded</item>
     </style>
 
-    <!-- 右侧小 Tips 图片 -->
-    <style name="rightCutStyle">
-        <item name="cornerFamily">cut</item>
+    <!-- 组合图片效果 -->
+    <style name="comCornerStyle">
+        <item name="cornerFamily">rounded</item>
         <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+    </style>
+
+    <!-- 小 Tips -->
+    <style name="tipsCornerStyle">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeTopLeft">50%</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">50%</item>
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerSizeTopRight">50%</item>
+        <item name="cornerFamilyBottomRight">cut</item>
         <item name="cornerSizeBottomRight">50%</item>
     </style>
 

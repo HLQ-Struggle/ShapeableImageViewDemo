@@ -44,11 +44,13 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="15dp"
+        app:strokeColor="#ff9023"
+        app:strokeWidth="20dp"
         android:scaleType="fitXY"
         android:src="@drawable/hlq_test"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_change_title"
-        app:shapeAppearanceOverlay="@style/roundedCornerStyle" />
+        app:shapeAppearance="@style/roundedCornerStyle" />
 
     <TextView
         android:id="@+id/tv_round_title"
